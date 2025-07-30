@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__shadcn-ui__list_components",
+      "mcp__shadcn-ui__get_component",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm dev:*)",
+      "Bash(pnpm build:*)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_install",
+      "Bash(curl:*)",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_click"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "fetch",
+    "context7",
+    "shadcn-ui",
+    "playwright"
+  ]
+}
